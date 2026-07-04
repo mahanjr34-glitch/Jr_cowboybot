@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"
+TOKEN = 8562149595:AAFuPHviVR6dN6DY34sxExr9TSlVUhvDBsM
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام! لینک ویدیو رو بفرست")
